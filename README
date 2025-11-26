@@ -1,0 +1,144 @@
+🚀 Enterprise E-Commerce RESTful API (Go + Echo)
+
+Welcome to the Enterprise E-Commerce RESTful API, a high-performance backend system built using Go (Golang) and the ultra-fast Echo web framework.
+This project demonstrates enterprise-level API design with clean architecture, modular domains, and production-ready best practices.
+
+👨‍💻 Developer Profile
+
+👋 Author: Asoh Yannick
+
+💼 Role: Backend Software Engineer (Enterprise APIs & Distributed Systems)
+🧠 Expertise:
+
+Go (Golang) • Echo • Gin • Clean Architecture
+
+MongoDB • PostgreSQL • Redis • Docker
+
+RESTful Microservices • Domain-Driven Design (DDD)
+
+Cloud Deployments • CI/CD • High-Scale Backend Systems
+
+“Engineering reliable backend systems with Go — built for scale, speed, and enterprise performance.”
+
+📌 Project Overview
+
+This project follows clean architecture, modular domain layers, and REST API best practices designed for enterprise e-commerce systems.
+
+✔️ Core Business Features
+Status	Feature
+🟩 User Authentication (JWT)	
+🟩 Product Catalog Service	
+🟩 Orders & Checkout System	
+🟩 Shopping Cart & Wishlist	
+🟩 Payment Service Integration	
+🟩 Inventory Tracking	
+🟩 Customer Profiles	
+🟩 Role-Based Access Control (RBAC)	
+🟩 Email/SMS Notifications	
+🟩 Admin Dashboard (API)	
+🟩 Analytics & Reporting Endpoints	
+
+All green sections represent completed, tested and production-ready endpoints.
+
+⚙️ Tech Stack
+Layer	Technology
+Backend Framework	Go (Golang) + Echo
+Architecture	Clean Architecture / DDD
+Database	MongoDB / PostgreSQL
+Caching	Redis
+Authentication	JWT + Middleware
+Containerization	Docker + Docker Compose
+Documentation	Swagger / OpenAPI
+Testing	Go Test, Mockery, Testify
+📘 API Endpoints Summary
+Category	Description	Example Endpoint
+🟩 Auth	Register, login, refresh tokens	/api/v1/auth/login
+🟩 Users	Manage profiles & roles	/api/v1/users/:id
+🟩 Products	CRUD products, categories	/api/v1/products
+🟩 Orders	Create/manage orders	/api/v1/orders/:orderId
+🟩 Payments	Payment gateway logic	/api/v1/payments/checkout
+🟩 Cart	Add/remove cart items	/api/v1/cart/add
+🟩 Wishlist	Manage wishlist items	/api/v1/wishlist
+🟩 Reviews	Product ratings & comments	/api/v1/reviews
+🟩 Analytics	Sales & performance metrics	/api/v1/analytics/sales
+🟩 Admin	Inventory & reporting tools	/api/v1/admin/users
+🏗️ Project Structure (Clean Architecture)
+/internal
+   /config
+   /domain
+      /product
+      /auth
+      /order
+      /payment
+   /repository
+   /service
+   /transport
+      /http (Echo handlers)
+   /utils
+
+
+This structure ensures:
+
+High scalability
+
+Loose coupling
+
+Easy testing
+
+Independent domain modules
+
+🐳 Running the Project (Docker)
+1️⃣ Clone the project
+git clone https://github.com/asohyannick/ecommerce-go
+cd ecommerce-go
+
+2️⃣ Start with Docker
+docker-compose up --build
+
+
+This launches:
+
+Go API server
+
+MongoDB/Postgres
+
+Redis
+
+Seed scripts (optional)
+
+🛠️ Development (Run Locally)
+go mod tidy
+go run cmd/server/main.go
+
+🤝 Contribution Guide
+
+Contributions are always welcome! 🚀
+To contribute:
+
+Fork the repository
+
+Create a feature branch
+
+Commit with clear messages
+
+Submit a PR
+
+Great code is built through great collaboration.
+
+📫 Contact
+
+📧 Email: asohyannick.dev@gmail.com
+
+🔗 GitHub: https://github.com/asohyannick
+
+💼 LinkedIn: linkedin.com/in/asohyannick
+
+🟩 Project Status
+
+✔️ All core backend features implemented
+🚀 Actively maintained and open for contributions
+📦 Enterprise-ready API architecture
+
+🚀 Continuous improvements and community contributions are encouraged!
+
+© 2025 Asoh Yannick — Backend Software Engineer
